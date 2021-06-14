@@ -1,0 +1,38 @@
+.bod{
+    border-color: orange;  
+  border-width: 5px;  
+  border-style: groove;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 20px;
+  align-items: center;
+  width: 400px;
+  margin-left: 400px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+.head{
+    font-size: 50px;
+    color: chocolate;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;;
+}
+.content{
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    width: 250px;
+    font-size: 25px;
+}
+table{
+    margin: auto;
+    margin-top: 25px;
+}
+button{
+    width: 60px;
+    height: 50px;
+    border-radius:5px;
+    font-size: 25px;
+    background-color: chocolate;
+}

@@ -1,0 +1,54 @@
+*{
+    background-color:rgb(255, 209, 194);
+    margin: 0;
+    padding: 0;
+}
+.screen{
+    margin-top: 0px;
+    margin: auto;
+    width: 400px;
+    height: 15px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.seats{
+    display: flex;
+    justify-content: center;
+    margin-top:15px ;
+
+}
+.booked{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .box{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color:orange;
+    border: 1px solid orange;
+    padding: 5px;
+    height: 70vh;
+    width: 85vw;
+    
+  }
+  .boxcolor{
+    background-color:saddlebrown;
+    margin: 3px;
+  }
+  .boxcolor:hover{
+      background-color:maroon;
+      box-shadow:5px 5px 5px maroon
+  }
+  .afterselect {
+    background-color: rgb(88, 29, 6);
+  }
+  

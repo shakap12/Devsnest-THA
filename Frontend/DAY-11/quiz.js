@@ -54,7 +54,6 @@ const showScore=document.querySelector('#showscore');
 let quescount = 0;
 let score=0;
 
-
 const loadques = () => {
     question.innerHTML = quizques[quescount].question;
     option1.innerHTML = quizques[quescount].a;

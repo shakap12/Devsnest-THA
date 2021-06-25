@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color:#bad1fa;
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.inner{
+    width: 450px;
+    padding: 20px 55px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px -6px black; 
+}
+.inner h2{
+    font-size:25px;
+    margin-bottom: 20px;
+}
+.answer{
+    font-size:15px ;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#submit,.btn{
+    display:block;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    background-color:#479ff7;
+    color: white;
+    font-size: 15px;
+}
+#submit:hover
+{
+    background-color: royalblue;
+}
+#showscore{
+    margin: 20px;
+    background-color: rgb(151, 146, 146);
+    padding: 20px 30px;
+    box-shadow: 10px 10px 10px -6px black; 
+    border-radius: 8px;
+}
+#showscore h3{
+    font-size: 20px;
+    text-align: center;
+}
+#showscore .btn{
+    margin-top: 20px;
+    background-color: #55efc4;
+    color:#2d3436;
+}
+#showscore .btn:hover{
+    background-color: #00b894;
+    color:#fff
+}
+.scorearea{
+    display:none;
+}

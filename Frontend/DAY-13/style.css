@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #cfcfff;
+}
+.heading{
+    text-align: center;
+    font-family: 'Benne', serif;
+    font-size: 18px;
+    width: 700px;
+    height: 50px;
+    background-color:#f79191;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+}
+.container{
+    display: block;
+    margin: auto;
+    border:1px solid black;
+    height: 550px;
+    width:750px;
+    margin-top:10px;
+    box-shadow: 0 0 30px navy;
+    background-color: white;
+}
+.inp{
+    height: 25px;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Staatliches', cursive;
+    background-color:#ffe28d;
+    padding-left: 5px;
+}
+::placeholder {
+    color:black;
+    opacity: 0.7;
+    padding-left: 10px;
+  }
+.btn{
+  
+    border: none;
+    border-radius:15px ;
+    height: 28px;
+    width: 300px;
+    background-color:#ffe28d;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: #ffa000;
+    height: 28px;
+    width: 330px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.memes {
+margin-top: 30px;
+margin-left: 200px;
+}

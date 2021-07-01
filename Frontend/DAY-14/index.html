@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Listeners</title>
+    <link rel="shortcut icon" href="#">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .mousebox {
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            margin-left: 30px;
+            margin-top: 30px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Event Listeners in JS</h1>
+    <h3>Event Listeners covered are:<em>ondblclick, onclick, ondrag, onmousemove,onmousedown,
+            onmouseover,onmousemove,onkeydown,onmousewheel,onkeyup,onkeydown.</em></h3>
+    <h4>To check output see console</h4>
+    <div class="container">
+        <div class="mousebox" onclick="singleclick()" ondblclick="doubleclick()" ondrag="drag()"
+            onmousemove="mousemove()" onmouseout="mouseout()" onmouseover="mouseover()" onmousedown="mousedown()"
+            onmousewheel="wheel()">
+        </div>
+        <input type="text" onkeydown="keydown()" placeholder="Key Down">
+        <input type="text" onkeyup="keyup()" placeholder="Key Up">
+    </div>
+    <script src="event.js"></script>
+</body>
+
+</html>

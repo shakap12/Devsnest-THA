@@ -31,8 +31,12 @@ function keydown() {
 function keyup() {
     console.log("Key released");
 }
-
-
+function vidplay() {
+    alert("Video playing");
+}
+function vidend(){
+    alert("Video ended");
+}
 
 
 

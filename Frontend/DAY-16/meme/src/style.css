@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(172, 166, 166);
+}
+.app{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+
+}
+.card{
+     border: 2px solid black;
+     background-color: white;
+     display:inline-block;
+     margin: auto;
+     padding: 10px 20px;
+     width: 440px;
+     text-align: center;
+     font-size: 15px;
+     box-shadow: 0 0 25px  black;
+}
+.card img{
+    width: 100%;
+}

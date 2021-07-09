@@ -6,7 +6,7 @@ function App(props) {
         <>
         <div className="mainheading">Calorie Read Only</div>
     <div className="app">
-       <Card food="PIZZA" cal="56"></Card>
+       <Card food="PIZZAA" cal="56"></Card>
        <Card food="BURGER" cal="69"></Card>
        <Card food="COKE" cal="500"></Card>
        <Card food="FRIED RICE" cal="90"></Card>

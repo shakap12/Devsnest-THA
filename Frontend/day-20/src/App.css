@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .heading {
+      font-size:30px;
+      text-align: center;
+      font-weight: bold;
+      }
+  .card {
+    width: 45vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 1px solid transparent;
+    margin-top: 100px;
+    align-items: center;
+    overflow-y: auto;
+    box-shadow: 2px 3px 9px -1px black;
+    border-radius: 5px;
+    
+}
+  .content {
+    width: 42vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    background-color: rgb(50 145 50);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 3px 9px -1px green;
+    padding-bottom: 30px;
+
+  }
+  .content button{
+    margin: 10px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 10px;
+    border: none;
+  }
+  

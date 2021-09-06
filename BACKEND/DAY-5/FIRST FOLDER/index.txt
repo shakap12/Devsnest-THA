@@ -1,0 +1,2 @@
+File inside FIRST FOLDER
+Hello I am appended text
